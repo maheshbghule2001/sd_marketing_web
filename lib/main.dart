@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sd_maketing/constant/app_strings.dart';
-
-import 'feature/dashboard/dashboard_view.dart';
 import 'routes/routes.dart';
 
 void main() {

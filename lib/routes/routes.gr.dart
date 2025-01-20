@@ -15,11 +15,11 @@ import 'package:sd_maketing/feature/user_info/user_view.dart' as _i2;
 
 /// generated route for
 /// [_i1.DashboardView]
-class DashboardView extends _i3.PageRouteInfo<void> {
-  const DashboardView({List<_i3.PageRouteInfo>? children})
-    : super(DashboardView.name, initialChildren: children);
+class DashboardRoute extends _i3.PageRouteInfo<void> {
+  const DashboardRoute({List<_i3.PageRouteInfo>? children})
+    : super(DashboardRoute.name, initialChildren: children);
 
-  static const String name = 'DashboardView';
+  static const String name = 'DashboardRoute';
 
   static _i3.PageInfo page = _i3.PageInfo(
     name,
@@ -31,11 +31,11 @@ class DashboardView extends _i3.PageRouteInfo<void> {
 
 /// generated route for
 /// [_i2.UserView]
-class UserView extends _i3.PageRouteInfo<void> {
-  const UserView({List<_i3.PageRouteInfo>? children})
-    : super(UserView.name, initialChildren: children);
+class UserRoute extends _i3.PageRouteInfo<void> {
+  const UserRoute({List<_i3.PageRouteInfo>? children})
+    : super(UserRoute.name, initialChildren: children);
 
-  static const String name = 'UserView';
+  static const String name = 'UserRoute';
 
   static _i3.PageInfo page = _i3.PageInfo(
     name,

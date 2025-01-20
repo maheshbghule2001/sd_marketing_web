@@ -1,17 +1,20 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:sd_maketing/routes/routes.gr.dart';
-@AutoRouterConfig(replaceInRouteName: 'Screen|Page,Route')
+@AutoRouterConfig(replaceInRouteName: 'Screen|View|Page,Route')
 class AppRouter extends RootStackRouter {
 
-  @override
-  RouteType get defaultRouteType => RouteType.material(); //.cupertino, .adaptive ..etc
+ AppRouter({
+    super.navigatorKey,
+  });
   
   @override
   List<AutoRoute> get routes => [
     // HomeScreen is generated as HomeRoute because
     // of the replaceInRouteName property
+    AutoRoute(page: DashboardRoute.page,initial: true),
+    AutoRoute(page: UserRoute.page),
     // AutoRoute(page: DashboardViewRoute.page, initial: true),
-      AutoRoute(page: DashboardView .page, initial: true),
+      // AutoRoute(page: DashboardViewRoute.page, initial: true),
 
   ];
 
